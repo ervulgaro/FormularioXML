@@ -36,7 +36,7 @@ window.onload = function() {
             gestionarXml(this);
         }
     };
-    xhttp.open("GET", "https://rawgit.com/ervulgaro/FormularioXML/master/preguntas.xml", true);
+    xhttp.open("GET", "https://rawgit.com/ervulgaro/FormularioXML/master/xml/preguntas%20.xml", true);
     xhttp.send();
 }
 

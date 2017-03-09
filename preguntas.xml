@@ -7,7 +7,7 @@
 
    	<question id="jklm_001">
 		<type>radio</type>
-		<title>1.- ¿Dónde nos podemos encontrar a Link?:</title>
+		<title>¿Dónde nos podemos encontrar a Link?:</title>
 		<option>a) En Dragon Ball</option>
 		<option>b) En el videojuego "La leyenda de Link"</option>
 		<option>c) En el Super Smash Bros</option>
@@ -18,7 +18,7 @@
 
     <question id="jklm_002">
 		<type>radio</type>
-		<title>2.- ¿Cual de estos juegos no existe?</title>
+		<title>¿Cual de estos juegos no existe?</title>
 		<option>a) Resident Evil 7</option>
 		<option>b) Coll of Duty: Ages of Majorca</option>
 		<option>c) Pokemon Sol</option>
@@ -29,7 +29,7 @@
 
 	<question id="jklm_003">
 		<type>text</type>
-		<title>3.- ¿Qué videojuego clásico arcade se basa en la colocación de bloques de distintas figuras
+		<title>¿Qué videojuego clásico arcade se basa en la colocación de bloques de distintas figuras
         geométricas en la pantalla e ir haciendo líneas horizontales?</title>
 		<answer>Tetris</answer>
 	</question>
@@ -37,14 +37,14 @@
 
     <question id="jklm_004">
 		<type>text</type>
-		<title>4.- ¿Cuántos enemigos tiene Pacman?</title>
+		<title>¿Cuántos enemigos tiene Pacman?</title>
 		<answer>4</answer>
 	</question>
     <!-- Los 4 fantasmas que intentan matarlo -->
 
 	<question id="jklm_005">
 		<type>checkbox</type>
-		<title>5.- ¿Cual es el protagonista del videojuego "La leyenda de Zelda"?</title>
+		<title>¿Cual es el protagonista del videojuego "La leyenda de Zelda"?</title>
 		<option>a) Link</option>
 		<option>b) Zelda</option>
 		<option>c) Luigi</option>
@@ -54,7 +54,7 @@
 
     <question id="jklm_006">
 		<type>checkbox</type>
-		<title>6.- ¿Cual es el enemigo de Mario?</title>
+		<title>¿Cual es el enemigo de Mario?</title>
 		<option>a) Peach</option>
 		<option>b) Luigi</option>
 		<option>c) Bowser</option>
@@ -64,7 +64,7 @@
 
 	<question id="jklm_007">
 		<type>select</type>
-		<title>7.- ¿Cual es la evolución de Pikachu?</title>
+		<title>¿Cual es la evolución de Pikachu?</title>
 		<option>a) Riachu</option>
 		<option>b) Raikachu</option>
 		<option>c) Raichu</option>
@@ -75,7 +75,7 @@
 
 	<question id="jklm_008">
 		<type>select</type>
-		<title>8.- ¿Que famoso tiene una saga de videojuego en honor a su nombre?</title>
+		<title>¿Que famoso tiene una saga de videojuego en honor a su nombre?</title>
 		<option>a) Arnold Schwarzenegger</option>
 		<option>b) Tony Hawk</option>
 		<option>c) Will Smith</option>
@@ -86,9 +86,9 @@
 
 	<question id="jklm_009">
 		<type>multiple</type>
-			<title>9.- ¿Qué juegos son de nintendo?</title>
+			<title>¿Qué juegos son de nintendo?</title>
 			<option>a) Sonic Adventure</option>
-            <option>b) Super Smash Bros</option>
+            		<option>b) Super Smash Bros</option>
 			<option>c) Donkey Kong </option>
 			<option>d) Golden Axe</option>
 			<answer>2</answer>
@@ -98,7 +98,7 @@
 
 	<question id="jklm_010">
 		<type>multiple</type>
-			<title>10.- ¿En qué juegos aparecen Zombies?</title>
+			<title>¿En qué juegos aparecen Zombies?</title>
 			<option>a) Resident Evil</option>
 			<option>b) Day Z</option>
 			<option>c) Call of Duty: Modern Warfare 2</option>

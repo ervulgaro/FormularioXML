@@ -41,12 +41,10 @@ window.onload = function() {
 }
 
 //****************************************************************************************************
-// Recuperamos los datos del fichero XML xml/preguntas.xml
-// xmlDOC es el documento leido XML.
+
 function gestionarXml(dadesXml) {
     var xmlDoc = dadesXml.responseXML; //Parse XML to xmlDoc
     //TEXT1
-    //Recuperamos el título y la respuesta correcta de Input, guardamos el texto secreto
     var pregunta001 = xmlDoc.getElementsByTagName("title")[0].innerHTML;
     ponerDatosInputHtml1(pregunta001);
     textoSecreto1 = xmlDoc.getElementsByTagName("answer")[0].childNodes[0].nodeValue;
@@ -150,7 +148,7 @@ function gestionarXml(dadesXml) {
 }
 
 //****************************************************************************************************
-//implementación de la corrección
+
 function corregirTexto1() {
     var s = formElement.elements[0].value;
     if (s == textoSecreto1) {
@@ -177,14 +175,14 @@ function corregirSelect1() {
 
 function corregirSelect2() {
     var sel = formElement.elements[3];
-    if (sel.selectedIndex - 1 == respuestaSelect2) { //-1 porque hemos puesto una opción por defecto en el select que ocupa la posición 0
+    if (sel.selectedIndex - 1 == respuestaSelect2) { 
         darRespuestaHtml("Pregunta 4: Correcta");
         nota += 1;
     } else darRespuestaHtml("Pregunta 4: Incorrecta");
 }
 
 function corregirCheckbox1() {
-    //Para cada opción mira si está checkeada, si está checkeada mira si es correcta y lo guarda en un array escorrecta[]
+
     var f = formElement;
     var escorrecta = [];
     for (i = 0; i < f.color1.length; i++) {
@@ -205,7 +203,7 @@ function corregirCheckbox1() {
 }
 
 function corregirCheckbox2() {
-    //Para cada opción mira si está checkeada, si está checkeada mira si es correcta y lo guarda en un array escorrecta[]
+
     var f = formElement;
     var escorrecta = [];
     for (i = 0; i < f.color2.length; i++) {
@@ -226,7 +224,7 @@ function corregirCheckbox2() {
 }
 
 //****************************************************************************************************
-// poner los datos recibios en el HTML
+
 function ponerDatosInputHtml1(t) {
     document.getElementById("pregunta001").innerHTML = t;
 }
@@ -348,7 +346,7 @@ function ponerDatosRadioHtml2(t, opt) {
 }
 
 //****************************************************************************************************
-//Gestionar la presentación de las respuestas
+
 function darRespuestaHtml(r) {
     var p = document.createElement("p");
     var node = document.createTextNode(r);
@@ -365,7 +363,6 @@ function inicializar() {
     nota = 0.0;
 }
 
-//Comprobar que se han introducido datos en el formulario
 function comprobar() {
     var f = formElement;
     var checked = false;

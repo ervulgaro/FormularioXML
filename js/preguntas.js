@@ -81,7 +81,7 @@ function gestionarXml(dadesXml) {
     var opcionesMultiSelect1 = [];
     var nopt = xmlDoc.getElementById("jklm_009").getElementsByTagName('option').length;
     for (i = 0; i < nopt; i++) {
-        opcionesMultiSelect1[i] = xmlDoc.getElementById("jkl_009").getElementsByTagName('option')[i].innerHTML;
+        opcionesMultiSelect1[i] = xmlDoc.getElementById("jklm_009").getElementsByTagName('option')[i].innerHTML;
     }
     ponerDatosMultiSelectHtml1(pregunta005, opcionesMultiSelect1);
     respuestaMultiSelect1 = parseInt(xmlDoc.getElementsByTagName("answer")[2].innerHTML);
